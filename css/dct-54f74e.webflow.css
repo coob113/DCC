@@ -15,7 +15,7 @@
 .quote-content {
   width: 50%;
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 200px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif, sans-serif;
   color: #fff;
   font-size: 60px;
@@ -36,7 +36,7 @@
   text-align: left;
 }
 
-.author_photo {
+.author-photo {
   display: block;
   width: 200px;
   height: 200px;
@@ -216,6 +216,7 @@
   top: auto;
   right: 0%;
   bottom: 0%;
+  height: 150px;
 }
 
 .question.half {
@@ -379,7 +380,7 @@ html.w-mod-js *[data-ix="appear-long"] {
   }
   .author_photo {
     display: block;
-    margin-left: 0px;
+    margin-top: 10px;
   }
   .logo {
     display: inline;
@@ -417,14 +418,12 @@ html.w-mod-js *[data-ix="appear-long"] {
     font-size: 40px;
     line-height: 40px;
   }
-  .quote-content.full {
-    margin-bottom: 10px;
-  }
+
   .quote-author {
     margin-top: 10px;
     font-size: 14px;
   }
-  .author_photo {
+  .author-photo {
     width: 100px;
     height: 100px;
   }
@@ -453,3 +452,26 @@ html.w-mod-js *[data-ix="appear-long"] {
   }
 }
 
+#camera, #camera--view, #camera--sensor, #camera--output{
+    position: fixed;
+    height: 100%;
+    width: 75%;
+    object-fit: cover;
+}
+#camera--view, #camera--sensor, #camera--output{
+    transform: scaleX(-1);
+    filter: FlipH;
+}
+#camera--trigger{
+    visibility: hidden 
+}
+.taken{
+    height: 100px!important;
+    width: 100px!important;
+    transition: all 0.5s ease-in;
+    border: solid 3px white;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+    top: 20px;
+    right: 20px;
+    z-index: 2;
+}
