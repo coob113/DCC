@@ -18,7 +18,7 @@ var data={ "notes": [
     {"quote": "Are components that you introduced reusable?"},
     {"quote": "How about to add more negative space?"},
     {"quote": "Don't you think that the screen is too complex?"},
-    {"quote": "Can we make simplify this flow?"},
+    {"quote": "Can we simplify this flow?"},
     {"quote": "Where is this feature in the whole users flow?"},
     {"quote": "What competing products that solve the same issue have you discovered?"},
     {"quote": "What is the main problem that you are solving?"},

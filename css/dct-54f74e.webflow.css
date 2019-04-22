@@ -212,7 +212,7 @@
 
 .next_container {
   position: fixed;
-  left: 0%;
+  left: 8px;
   top: auto;
   right: 0%;
   bottom: 0%;
@@ -365,6 +365,9 @@ html.w-mod-js *[data-ix="appear-long"] {
   .twitter-share {
     margin-bottom: 50px;
   }
+    .next_container {
+  height: 100px;
+}
 }
 
 @media (max-width: 767px) {
