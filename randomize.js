@@ -137,8 +137,8 @@ function randomize() {
     $(".author-photo").attr("src", itemp.title);
     
     var twitterBtn = document.querySelector('.twitter-share');
-    var text = encodeURIComponent('Design Critique Coach 🦸 taught me to answer this question: " ');
-    var shareUrl = 'https://twitter.com/intent/tweet?url=' + location.href + '&text=' + text + item.quote + '" More questions 👉designcritiquecoach.com 👈' ;
+    var text = encodeURIComponent('#Design Critique Coach had me at "');
+    var shareUrl = 'https://twitter.com/intent/tweet?url=' + location.href + '&text=' + text + item.quote + '" More questions 👉https://designcritiquecoach.com' ;
     twitterBtn.href = shareUrl; // 1
 
     twitterBtn.addEventListener('click', function(e) {
