@@ -418,7 +418,9 @@ html.w-mod-js *[data-ix="appear-long"] {
     font-size: 40px;
     line-height: 40px;
   }
-
+ .quote-content.full {
+    margin-bottom: 200px;
+  }
   .quote-author {
     margin-top: 10px;
     font-size: 14px;
@@ -441,9 +443,9 @@ html.w-mod-js *[data-ix="appear-long"] {
     margin: 10px 6px;
     padding: 12px;
   }
-  .caption {
+  /*.caption {
     margin-top: 12px;
-  }
+  }*/
   .twitter-share {
     margin-top: 10px;
     margin-right: 6px;
@@ -455,7 +457,7 @@ html.w-mod-js *[data-ix="appear-long"] {
 #camera, #camera--view, #camera--sensor, #camera--output{
     position: fixed;
     height: 100%;
-    width: 75%;
+    width: 100%;
     object-fit: cover;
 }
 #camera--view, #camera--sensor, #camera--output{
