@@ -138,7 +138,7 @@ function randomize() {
     
     var twitterBtn = document.querySelector('.twitter-share');
     var text = encodeURIComponent('#Design Critique Coach had me at "');
-    var shareUrl = 'https://twitter.com/intent/tweet?url=' + location.href + '&text=' + text + item.quote + '" More questions 👉https://designcritiquecoach.com' ;
+    var shareUrl = 'https://twitter.com/intent/tweet?url=' + location.href + '&text=' + text + item.quote + '" More questions 👉' ;
     twitterBtn.href = shareUrl; // 1
 
     twitterBtn.addEventListener('click', function(e) {
